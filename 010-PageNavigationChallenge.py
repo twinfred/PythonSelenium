@@ -4,7 +4,7 @@ from selenium.webdriver.support.ui import Select
 import time
 
 driver = webdriver.Chrome()
-driver.get('https://wiki.python.org/moin/FrontPag'e)
+driver.get('https://wiki.python.org/moin/FrontPage')
 time.sleep(3)
 
 searchBox = driver.find_element_by_id('searchinput')
